@@ -1,0 +1,83 @@
+{
+    "appHeader": {
+      "employees": "Çalışanlar",
+      "addNew": "Yeni Ekle",
+      "languageLabel": "Dil"
+    },
+    "employeeList": {
+      "title": "Çalışan Listesi",
+      "searchPlaceholder": "Çalışan ara...",
+      "searchAriaLabel": "Çalışanları ara",
+      "searchBtn": "Ara",
+      "listViewBtn": "Liste görünümü",
+      "tableViewBtn": "Tablo görünümü",
+      "table": {
+          "firstName": "Ad",
+          "lastName": "Soyad",
+          "dateOfEmployment": "İşe Giriş Tarihi",
+          "dateOfBirth": "Doğum Tarihi",
+          "phone": "Telefon",
+          "email": "E-posta",
+          "department": "Departman",
+          "position": "Pozisyon",
+          "actions": "İşlemler",
+          "editAction": "Düzenle",
+          "deleteAction": "Sil",
+          "selectAllAria": "Tüm çalışanları seç",
+          "selectOneAria": "{{name}} çalışanını seç"
+      },
+      "list": {
+          "employed": "İşe Alınma",
+          "born": "Doğum"
+      },
+      "pagination": {
+          "previous": "Önceki sayfa",
+          "next": "Sonraki sayfa",
+          "goToPage": "{{page}}. sayfaya git",
+          "resultsCount": "{{total}} sonuçtan {{start}}-{{end}} arası gösteriliyor"
+      },
+      "empty": {
+          "noResults": "Çalışan bulunamadı.",
+          "noResultsForTerm": "\"`{{term}}`\" ile eşleşen çalışan bulunamadı."
+      },
+      "generateEmployeeBtn": "Çalışan Oluştur",
+      "selectedCount": "{{count}} çalışan seçildi"
+    },
+    "deleteConfirmDialog": {
+        "title": "Emin misiniz?",
+        "message": "{{name}} çalışanının kaydı silinecek.",
+        "cancel": "İptal",
+        "proceed": "Devam Et"
+    },
+    "employeeForm": {
+        "titleAdd": "Yeni Çalışan Ekle",
+        "titleEdit": "Çalışanı Düzenle",
+        "label": {
+            "firstName": "Ad",
+            "lastName": "Soyad",
+            "dateOfEmployment": "İşe Giriş Tarihi",
+            "dateOfBirth": "Doğum Tarihi",
+            "phone": "Telefon",
+            "email": "E-posta",
+            "department": "Departman",
+            "position": "Pozisyon",
+            "selectPlaceholder": "-- {{field}} Seçiniz --"
+        },
+        "button": {
+            "add": "Çalışan Ekle",
+            "update": "Çalışanı Güncelle",
+            "cancel": "İptal"
+        },
+        "validation": {
+            "requiredError": "Lütfen gerekli tüm alanları doğru şekilde doldurun.",
+            "emailInUseError": "Bu e-posta adresi zaten kullanılıyor.",
+            "unexpectedError": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+        }
+    },
+     "toaster": {
+        "deleteSuccess": "'{{name}}' çalışanı başarıyla silindi.",
+        "addSuccess": "'{{name}}' çalışanı başarıyla eklendi.",
+        "updateSuccess": "'{{name}}' çalışanı başarıyla güncellendi.",
+        "error": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+     }
+  }

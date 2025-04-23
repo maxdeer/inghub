@@ -1,0 +1,83 @@
+{
+    "appHeader": {
+      "employees": "Employees",
+      "addNew": "Add New",
+      "languageLabel": "Language"
+    },
+    "employeeList": {
+      "title": "Employee List",
+      "searchPlaceholder": "Search employees...",
+      "searchAriaLabel": "Search employees",
+      "searchBtn": "Search",
+      "listViewBtn": "List view",
+      "tableViewBtn": "Table view",
+      "table": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dateOfEmployment": "Date of Employment",
+        "dateOfBirth": "Date of Birth",
+        "phone": "Phone",
+        "email": "Email",
+        "department": "Department",
+        "position": "Position",
+        "actions": "Actions",
+        "editAction": "Edit",
+        "deleteAction": "Delete",
+        "selectAllAria": "Select all employees",
+        "selectOneAria": "Select employee {{name}}"
+      },
+      "list": {
+          "employed": "Employed",
+          "born": "Born"
+      },
+      "pagination": {
+          "previous": "Previous page",
+          "next": "Next page",
+          "goToPage": "Go to page {{page}}",
+          "resultsCount": "Showing {{start}}-{{end}} of {{total}} results"
+      },
+      "empty": {
+          "noResults": "No employees found.",
+          "noResultsForTerm": "No employees found matching \"{{term}}\"."
+      },
+      "generateEmployeeBtn": "Generate Employee",
+      "selectedCount": "{{count}} employee(s) selected"
+    },
+    "deleteConfirmDialog": {
+        "title": "Are you sure?",
+        "message": "Selected Employee record of {{name}} will be deleted",
+        "cancel": "Cancel",
+        "proceed": "Proceed"
+    },
+    "employeeForm": {
+        "titleAdd": "Add New Employee",
+        "titleEdit": "Edit Employee",
+        "label": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "dateOfEmployment": "Date of Employment",
+            "dateOfBirth": "Date of Birth",
+            "phone": "Phone",
+            "email": "Email",
+            "department": "Department",
+            "position": "Position",
+            "selectPlaceholder": "-- Select {{field}} --"
+        },
+        "button": {
+            "add": "Add Employee",
+            "update": "Update Employee",
+            "cancel": "Cancel"
+        },
+        "validation": {
+            "requiredError": "Please fill out all required fields correctly.",
+            "emailInUseError": "This email address is already in use.",
+            "unexpectedError": "An unexpected error occurred. Please try again."
+        }
+    },
+    "toaster": {
+        "deleteSuccess": "Employee '{{name}}' deleted successfully.",
+        "addSuccess": "Employee '{{name}}' added successfully.",
+        "updateSuccess": "Employee '{{name}}' updated successfully.",
+        "error": "An unexpected error occurred. Please try again."
+    }
+  }
