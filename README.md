@@ -43,3 +43,8 @@ This will typically run the tests once in headless browsers (check `package.json
 # Example: If defined in package.json
 npm run test:watch 
 ``` 
+
+```bash
+# Example coverage score
+npm run test:coverage 
+``` 
